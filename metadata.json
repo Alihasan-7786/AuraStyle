@@ -1,0 +1,6 @@
+{
+  "name": "AuraStyle",
+  "description": "AuraStyle is an elegant luxury fashion curation house designed for bespoke styling recommendations, catalog discovery, and premium wardrobe coordination.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,662 @@
+{
+  "users": [
+    {
+      "id": "user_admin",
+      "name": "AuraStyle Faculty Admin",
+      "email": "admin@aurastyle.com",
+      "passwordHash": "8e815e985834fc07b5e804f32a514d88:4fb889e49a888c7f999bd9fc2ee03e35ef7d22bf0fc3d05be156f082e6ef296fa2fcd5c79658dbbc0cb73c52e8be48bf7613589b91e98cb573ff0a05847b2c93",
+      "role": "admin",
+      "createdAt": "2026-06-28T18:02:34.019Z"
+    },
+    {
+      "id": "user_demo",
+      "name": "Demo Student User",
+      "email": "user@aurastyle.com",
+      "passwordHash": "c6dbde27e04bf7cbf4d8e878345719bc:e327da8fae544a49688bc8a9b31d0446b3f81e3a9856f7ef57d7705cc8671fcaef6599268f7605d8f63459cfae9681b95f269da58f504ca2d765089e9f91a5ee",
+      "role": "user",
+      "createdAt": "2026-06-28T18:02:34.019Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_1",
+      "name": "Oversized Core Fleece Hoodie",
+      "brand": "Aura Streetwear",
+      "category": "Streetwear",
+      "price": 9990,
+      "description": "Designed for ultimate comfort. Engineered from heavy 450gsm organic cotton fleece, this drop-shoulder, double-lined hoodie delivers a relaxed streetwear drape perfect for seasonal layering.",
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "name": "Pitch Black",
+          "hex": "#111111"
+        },
+        {
+          "name": "Slate Gray",
+          "hex": "#555555"
+        }
+      ],
+      "rating": 4.8,
+      "reviewsCount": 34,
+      "gender": "Men",
+      "tags": [
+        "hoodie",
+        "oversized",
+        "winter",
+        "black",
+        "fleece",
+        "streetwear",
+        "casual"
+      ],
+      "createdAt": "2026-06-28T18:02:16.721Z"
+    },
+    {
+      "id": "prod_2",
+      "name": "Tailored Double-Breasted Cashmere Overcoat",
+      "brand": "Aura Atelier",
+      "category": "Luxury",
+      "price": 35990,
+      "description": "The epitome of classic tailoring. Crafted from a blend of Italian wool and grade-A cashmere, this double-breasted overcoat features structural peak lapels, side welt pockets, and a luxurious satin-lined interior.",
+      "images": [
+        "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "name": "Camel",
+          "hex": "#C19A6B"
+        },
+        {
+          "name": "Midnight Navy",
+          "hex": "#1A293E"
+        }
+      ],
+      "rating": 4.9,
+      "reviewsCount": 18,
+      "gender": "Women",
+      "tags": [
+        "coat",
+        "camel",
+        "luxury",
+        "cashmere",
+        "winter",
+        "outerwear",
+        "elegant"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    },
+    {
+      "id": "prod_3",
+      "name": "Slim-Fit Japanese Selvedge Denim",
+      "brand": "Aura Denim Co.",
+      "category": "Streetwear",
+      "price": 14990,
+      "description": "Woven on heritage shuttle looms in Kojima, Japan. These raw 14oz indigo selvedge jeans will break in uniquely to your body over time. Finished with signature red-line selvedge ID, custom branded copper hardware, and a leather patch.",
+      "images": [
+        "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        {
+          "name": "Indigo Blue",
+          "hex": "#2E4057"
+        }
+      ],
+      "rating": 4.7,
+      "reviewsCount": 22,
+      "gender": "Men",
+      "tags": [
+        "denim",
+        "blue",
+        "jeans",
+        "casual",
+        "streetwear",
+        "pants"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    },
+    {
+      "id": "prod_4",
+      "name": "Pleated Emerald Silk Evening Gown",
+      "brand": "Aura Atelier",
+      "category": "Luxury",
+      "price": 44990,
+      "description": "An ethereal silhouette for unforgettable evenings. Made from luxurious 100% mulberry silk crepe, this gown displays custom pleated bodice details, a fluid draped floor-length skirt, and a delicate open-back design.",
+      "images": [
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "name": "Emerald Green",
+          "hex": "#0F52BA"
+        },
+        {
+          "name": "Crimson Red",
+          "hex": "#990000"
+        }
+      ],
+      "rating": 5,
+      "reviewsCount": 12,
+      "gender": "Women",
+      "tags": [
+        "dress",
+        "gown",
+        "luxury",
+        "green",
+        "silk",
+        "evening",
+        "party"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    },
+    {
+      "id": "prod_5",
+      "name": "Asymmetric Vintage Leather Biker Jacket",
+      "brand": "Aura Streetwear",
+      "category": "Streetwear",
+      "price": 25990,
+      "description": "The ultimate rock-and-roll icon. Handcrafted from supple, distressed full-grain calfskin leather, this jacket features chunky steel zippers, an adjustable belted waist, and a quilted lining for warmth and longevity.",
+      "images": [
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "name": "Distressed Black",
+          "hex": "#1C1C1C"
+        },
+        {
+          "name": "Mocha Brown",
+          "hex": "#4B3621"
+        }
+      ],
+      "rating": 4.8,
+      "reviewsCount": 29,
+      "gender": "Men",
+      "tags": [
+        "leather",
+        "jacket",
+        "black",
+        "biker",
+        "vintage",
+        "streetwear",
+        "outerwear"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    },
+    {
+      "id": "prod_6",
+      "name": "Active-Dry Tech Track Pants",
+      "brand": "Aura Sports",
+      "category": "Sports",
+      "price": 6990,
+      "description": "Designed for athletes on the move. Engineered from lightweight, water-repellent, four-way stretch nylon blend, these tapered track pants offer secure zipped storage, laser-cut ventilation ports, and customizable ankle zips.",
+      "images": [
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "name": "Charcoal Gray",
+          "hex": "#3E424B"
+        },
+        {
+          "name": "Aero Blue",
+          "hex": "#1E3D59"
+        }
+      ],
+      "rating": 4.6,
+      "reviewsCount": 15,
+      "gender": "Men",
+      "tags": [
+        "sports",
+        "track",
+        "gray",
+        "pants",
+        "tech",
+        "activewear",
+        "athletic"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    },
+    {
+      "id": "prod_7",
+      "name": "Ribbed Merino Wool Mockneck Sweater",
+      "brand": "Aura Atelier",
+      "category": "Luxury",
+      "price": 12990,
+      "description": "Incredibly soft, warmth without weight. Knit from 100% fine merino wool in a high-density flat rib structure. Features a comfortable mockneck collar and beautiful raglan sleeve details.",
+      "images": [
+        "https://images.unsplash.com/photo-1574164904299-3a102b110380?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "name": "Ivory White",
+          "hex": "#FDFBF7"
+        },
+        {
+          "name": "Warm Beige",
+          "hex": "#D2B48C"
+        }
+      ],
+      "rating": 4.9,
+      "reviewsCount": 41,
+      "gender": "Women",
+      "tags": [
+        "sweater",
+        "ivory",
+        "wool",
+        "winter",
+        "luxury",
+        "casual",
+        "knit"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    },
+    {
+      "id": "prod_8",
+      "name": "Run-Swift Split Shorts",
+      "brand": "Aura Sports",
+      "category": "Sports",
+      "price": 4490,
+      "description": "Ultra-lightweight race shorts designed for peak endurance. Features high split side seams for uninhibited leg movement, an integrated supportive compression liner, and a zipper-secured pocket for energy gels.",
+      "images": [
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "name": "Neon Orange",
+          "hex": "#FF5E36"
+        },
+        {
+          "name": "Active Black",
+          "hex": "#0A0A0A"
+        }
+      ],
+      "rating": 4.5,
+      "reviewsCount": 10,
+      "gender": "Men",
+      "tags": [
+        "sports",
+        "run",
+        "shorts",
+        "orange",
+        "activewear",
+        "athletic"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    },
+    {
+      "id": "prod_9",
+      "name": "Canvas MA-1 Flight Bomber Jacket",
+      "brand": "Aura Streetwear",
+      "category": "Streetwear",
+      "price": 11990,
+      "description": "A robust utility outer shell. Inspired by military archives, this bomber jacket is crafted from rugged cotton canvas with quilted insulation, heavy-duty silver hardware, and secure utility sleeve compartments.",
+      "images": [
+        "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "name": "Olive Green",
+          "hex": "#556B2F"
+        },
+        {
+          "name": "Pitch Black",
+          "hex": "#111111"
+        }
+      ],
+      "rating": 4.7,
+      "reviewsCount": 26,
+      "gender": "Women",
+      "tags": [
+        "jacket",
+        "olive",
+        "bomber",
+        "military",
+        "streetwear",
+        "outerwear"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    },
+    {
+      "id": "prod_10",
+      "name": "Premium Flax Linen Resort Shirt",
+      "brand": "Aura Atelier",
+      "category": "Luxury",
+      "price": 7990,
+      "description": "Effortless warm-weather sophistication. Crafted from 100% sustainably-sourced French flax linen, pre-washed for exceptional softness. Styled with an airy camp collar, relaxed fit, and genuine mother-of-pearl buttons.",
+      "images": [
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "name": "Pristine White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Ocean Mist Blue",
+          "hex": "#D4F1F4"
+        }
+      ],
+      "rating": 4.8,
+      "reviewsCount": 19,
+      "gender": "Men",
+      "tags": [
+        "shirt",
+        "white",
+        "linen",
+        "summer",
+        "casual",
+        "resort",
+        "luxury"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    },
+    {
+      "id": "prod_11",
+      "name": "Aura Handcrafted Saffiano Leather Tote",
+      "brand": "Aura Atelier",
+      "category": "Accessories",
+      "price": 19990,
+      "description": "A masterclass in functional luxury. Structured from durable scratch-resistant Saffiano leather, this tote features a roomy interior, padded laptop sleeve, customized gold-toned protective feet, and precise hand-painted raw edges.",
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "name": "Tan Brown",
+          "hex": "#A0522D"
+        },
+        {
+          "name": "Onyx Black",
+          "hex": "#0C0C0C"
+        }
+      ],
+      "rating": 4.9,
+      "reviewsCount": 33,
+      "gender": "Unisex",
+      "tags": [
+        "bag",
+        "accessory",
+        "leather",
+        "brown",
+        "tote",
+        "luxury",
+        "handbag"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    },
+    {
+      "id": "prod_12",
+      "name": "Monochrome Chronograph Titanium Watch",
+      "brand": "Aura Atelier",
+      "category": "Accessories",
+      "price": 29990,
+      "description": "Sleek, high-grade lightweight design. Forged with a 40mm matte titanium case and fitted with custom sapphire crystal glass. Powered by a precision Japanese chronograph movement, water-resistant up to 50 meters.",
+      "images": [
+        "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "name": "Matte Titanium",
+          "hex": "#4A4A4A"
+        }
+      ],
+      "rating": 4.9,
+      "reviewsCount": 14,
+      "gender": "Unisex",
+      "tags": [
+        "watch",
+        "accessory",
+        "black",
+        "metal",
+        "luxury",
+        "jewelry"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    },
+    {
+      "id": "prod_13",
+      "name": "Plush Teddy Fleece Bear-Ear Hoodie",
+      "brand": "Aura Kids",
+      "category": "Kids",
+      "price": 3490,
+      "description": "Unmatched warmth for playful days. This super-soft, high-pile plush teddy fleece hoodie features adorable bear ears on the hood, ribbed storm cuffs, and an easy-zip front designed for little hands.",
+      "images": [
+        "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "4Y",
+        "6Y",
+        "8Y",
+        "10Y"
+      ],
+      "colors": [
+        {
+          "name": "Teddy Beige",
+          "hex": "#E1C699"
+        },
+        {
+          "name": "Dusty Rose",
+          "hex": "#DCAE96"
+        }
+      ],
+      "rating": 4.8,
+      "reviewsCount": 27,
+      "gender": "Kids",
+      "tags": [
+        "kids",
+        "fleece",
+        "beige",
+        "hoodie",
+        "winter",
+        "cute",
+        "teddy"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    },
+    {
+      "id": "prod_14",
+      "name": "Retro Suede Low-Top Sneakers",
+      "brand": "Aura Sports",
+      "category": "Sports",
+      "price": 10990,
+      "description": "Seventies-inspired sports style redefined. Crafted from supple calfskin suede with high-contrast leather stripe overlays, features a cushy vulcanized rubber sole and an eco-friendly cork footbed for natural support.",
+      "images": [
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "colors": [
+        {
+          "name": "Sand Beige",
+          "hex": "#E5D3B3"
+        },
+        {
+          "name": "Cobalt Navy",
+          "hex": "#0020C2"
+        }
+      ],
+      "rating": 4.7,
+      "reviewsCount": 52,
+      "gender": "Men",
+      "tags": [
+        "sneakers",
+        "shoes",
+        "suede",
+        "sand",
+        "blue",
+        "sports",
+        "casual",
+        "streetwear"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    },
+    {
+      "id": "prod_15",
+      "name": "Seamless Impact Compression Bra",
+      "brand": "Aura Sports",
+      "category": "Sports",
+      "price": 4990,
+      "description": "High-performance athletic support. Seamlessly knit with body-mapped zoning for maximum airflow and zero distraction. High-impact design featuring a racerback and removable padding.",
+      "images": [
+        "https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "name": "Dusty Pink",
+          "hex": "#DE6B92"
+        },
+        {
+          "name": "Active Onyx",
+          "hex": "#0D0D0D"
+        }
+      ],
+      "rating": 4.6,
+      "reviewsCount": 30,
+      "gender": "Women",
+      "tags": [
+        "sports",
+        "pink",
+        "activewear",
+        "gym",
+        "seamless",
+        "undergarment"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    },
+    {
+      "id": "prod_16",
+      "name": "Tailored Pleated Trousers",
+      "brand": "Aura Atelier",
+      "category": "Luxury",
+      "price": 13990,
+      "description": "Flawless structural draping. High-waisted trousers tailored from premium lightweight wool-blend. Engineered with neat double-front pleats, pressed creases, and deep side pockets.",
+      "images": [
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "name": "Slate Gray",
+          "hex": "#708090"
+        },
+        {
+          "name": "Onyx Black",
+          "hex": "#0A0A0A"
+        }
+      ],
+      "rating": 4.8,
+      "reviewsCount": 16,
+      "gender": "Women",
+      "tags": [
+        "pants",
+        "gray",
+        "pleated",
+        "tailored",
+        "luxury",
+        "office",
+        "formal"
+      ],
+      "createdAt": "2026-06-28T18:02:16.722Z"
+    }
+  ],
+  "orders": [],
+  "reviews": [
+    {
+      "id": "rev_1",
+      "productId": "prod_1",
+      "userId": "user_demo",
+      "userName": "Demo Student User",
+      "rating": 5,
+      "comment": "Incredibly thick hoodie. The organic cotton feels super high-end and is really soft on the inside. Highly recommended for winter!",
+      "createdAt": "2026-06-28T18:02:34.019Z"
+    }
+  ],
+  "searchLogs": [],
+  "carts": [],
+  "wishlists": []
+}
